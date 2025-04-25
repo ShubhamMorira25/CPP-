@@ -1,0 +1,47 @@
+#include<iostream>
+using namespace std;
+int main(){
+    cout<<"1.How can you create messages like Score: 99"<<endl?
+	int score = 99;
+	string result =  to_string(score);
+	cout<<"Score:99"<<endl;
+    
+    cout<<"2.How do you read full-line input (including spaces)?"<<endl;
+	string name;
+	cout<<"Enter your name: "<<name<<endl;
+	getline (cin, name);
+	cout<<"Your name is:"<<name;
+	
+    cout<<"3.How do you convert an integer to a string?"<<endl;
+	int score = 86;
+	string result =  to_string(score);
+	cout<<result;
+
+    cout<<"4.How do you find the larger of two integers"<<endl;
+	int n1 = 15, n2 = 30;
+	cout<<max(n1,n2);
+
+    cout<<"5.How do you compare and pick the smaller of two values?"<<endl
+	int a = 45, b = 50;
+	cout<<min(a,b);
+
+    cout<<"6.How can you convert a string	\"100\" to an integer?"<<endl;
+	string s ="100";
+	int num = stoi(s);
+	cout<< num;
+
+    cout<<"7.How do you exchange values of two variables without swap case use?"<<endl;
+	int a = 5, b = 10;
+	a= a+b;
+	b=a-b;
+	a=a-b;
+	cout<< a <<" "<<b;
+
+    cout<<"8.How do you exchange values of two variables"<<endl;
+    int a = 5, b = 10;
+	int c = a;
+	a = b;
+	b = c;
+	cout<< a <<" " <<b;
+
+}
