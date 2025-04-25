@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"1.How can you create messages like Score: 99"<<endl?
+    cout<<"1.How can you create messages like Score: 99?"<<endl
 	int score = 99;
 	string result =  to_string(score);
 	cout<<"Score:99"<<endl;
